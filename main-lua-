@@ -1,0 +1,19 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PetSimXDupeGui (Made by Slit#7960", "DarkTheme")
+
+-- DUPE
+local Dupe = Window:NewTab("DUPE")
+local DupeSection = Dupe:NewSection("Dupe v2 (OP)")
+
+
+DupeSection:NewButton("DUPE (wait 20 secs after clicking button)", "Op DUPE SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+DupeSection:NewButton("TRADESCAM (ONLY FOR TRADING )", "OP TRADESCAM SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+-- Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Made by Slit#7960 (Thanks for using)")
