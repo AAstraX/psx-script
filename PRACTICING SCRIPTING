@@ -1,0 +1,24 @@
+GUI local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SLIT HUB (Made by Slit#7960", "DarkTheme")
+
+-- DUPE
+local Dupe = Window:NewTab("DUPE")
+local DupeSection = Dupe:NewSection("Dupe v2 (OP)")
+
+
+DupeSection:NewButton("DUPE (wait 30 secs after clicking button)", "OP DUPE SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+DUPEGEMSSection:NewButton("DUPE GEMS )", "OP DUPE GEMS SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+
+-- TradeScam 
+local TradeScam = Window:NewTab("TradeScam")
+local TradeScamSection TradeScam:NewSection("Trade Scam v2 (OP)")
+
+-- Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Made by Slit#7960 (Thanks for using)")
