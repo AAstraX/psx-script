@@ -1,3 +1,5 @@
+--open source Sign - Mail Spoofer 😎👌 feel free to Use
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AAstraX/psx-script/main/libs')))()
 
 getgenv().Username = "YofavKala1"
