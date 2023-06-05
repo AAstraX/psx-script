@@ -28,6 +28,21 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.
 
 	end
 
+local Secret = 0
+
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+
+    if v:IsA("TextButton") then
+
+    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Secret") then
+
+                    Secret = Secret + 1
+
+                end
+
+            end
+
+	end
 local exploit = identifyexecutor()
 
   
