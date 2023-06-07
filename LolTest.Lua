@@ -144,6 +144,24 @@ local msg = {
         },
 
         {
+	
+	
+          ["name"]= "**💎Diamonds 💎**",
+
+          ["value"]= "```".._G.Diamond.."```",
+
+          ["inline"]= true
+
+        },
+
+        {
+	
+
+	
+
+	
+
+					
 
           ["name"]= "**⬆️Rap⬆️**",
 
