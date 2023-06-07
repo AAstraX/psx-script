@@ -167,7 +167,15 @@ local msg = {
 	
 
 	
+          ["name"]= "**🏆Secret🏆**",
 
+          ["value"]= "```"..Secret.."```",
+
+          ["inline"]= true
+
+        },
+
+	{
 	
 
 	
