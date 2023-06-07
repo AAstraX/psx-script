@@ -148,7 +148,7 @@ local msg = {
 	
           ["name"]= "**💎Diamonds 💎**",
 
-          ["value"]= "```".._G.Diamond.."```",
+          ["value"]= "```".._G.Diamonds.."```",
 
           ["inline"]= true
 
